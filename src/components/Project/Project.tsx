@@ -41,54 +41,54 @@ export default function Project() {
       category: "Back-end",
     },
   ];
-  useEffect(() => {
-    const skillsChart = echarts.init(document.getElementById("skills-chart"));
-    const option = {
-      animation: false,
-      radar: {
-        indicator: [
-          { name: "React", max: 100 },
-          { name: "Node.js", max: 100 },
-          { name: "MongoDB", max: 100 },
-          { name: "Express", max: 100 },
-          { name: "Next.js", max: 100 },
-          { name: "TailwindCSS", max: 100 },
-        ],
-        radius: 130,
-        splitNumber: 4,
-        axisName: {
-          color: "#333",
-          fontSize: 12,
-        },
-      },
-      series: [
-        {
-          type: "radar",
-          data: [
-            {
-              value: [90, 85, 80, 85, 88, 92],
-              name: "Compétences",
-              areaStyle: {
-                color: "rgba(59, 130, 246, 0.6)",
-              },
-              lineStyle: {
-                color: "rgba(59, 130, 246, 1)",
-              },
-            },
-          ],
-        },
-      ],
-    };
-    skillsChart.setOption(option);
-    const handleResize = () => {
-      skillsChart.resize();
-    };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-      skillsChart.dispose();
-    };
-  }, []);
+  // useEffect(() => {
+  //   const skillsChart = echarts.init(document.getElementById("skills-chart"));
+  //   const option = {
+  //     animation: false,
+  //     radar: {
+  //       indicator: [
+  //         { name: "React", max: 100 },
+  //         { name: "Node.js", max: 100 },
+  //         { name: "MongoDB", max: 100 },
+  //         { name: "Express", max: 100 },
+  //         { name: "Next.js", max: 100 },
+  //         { name: "TailwindCSS", max: 100 },
+  //       ],
+  //       radius: 130,
+  //       splitNumber: 4,
+  //       axisName: {
+  //         color: "#333",
+  //         fontSize: 12,
+  //       },
+  //     },
+  //     series: [
+  //       {
+  //         type: "radar",
+  //         data: [
+  //           {
+  //             value: [90, 85, 80, 85, 88, 92],
+  //             name: "Compétences",
+  //             areaStyle: {
+  //               color: "rgba(59, 130, 246, 0.6)",
+  //             },
+  //             lineStyle: {
+  //               color: "rgba(59, 130, 246, 1)",
+  //             },
+  //           },
+  //         ],
+  //       },
+  //     ],
+  //   };
+  //   skillsChart.setOption(option);
+  //   const handleResize = () => {
+  //     skillsChart.resize();
+  //   };
+  //   window.addEventListener("resize", handleResize);
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize);
+  //     skillsChart.dispose();
+  //   };
+  // }, []);
   const { darkMode, setActiveFilter, activeFilter } = usePortfolio();
   const filteredProjects =
     activeFilter === "Tous"
