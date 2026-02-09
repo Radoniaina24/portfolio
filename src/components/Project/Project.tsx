@@ -179,7 +179,7 @@ export default function Project() {
                     </span>
                   ))}
                 </div>
-                <div className="flex justify-between">
+                {/* <div className="flex justify-between">
                   <a
                     href={project.demoLink}
                     className="text-blue-600 hover:text-blue-800 font-medium flex items-center cursor-pointer whitespace-nowrap"
@@ -192,19 +192,19 @@ export default function Project() {
                   >
                     <FaGithub className="mr-2" /> GitHub
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
         </div>
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <a
             href="#"
             className="px-6 py-3 bg-blue-600 text-white rounded-button hover:bg-blue-700 transition-colors duration-300 inline-block cursor-pointer whitespace-nowrap"
           >
             Voir plus de projets
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
