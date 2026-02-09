@@ -80,19 +80,19 @@ const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "GitHub",
     icon: Github,
-    href: "https://github.com",
+    href: "https://github.com/Radoniaina24",
     color: "hover:text-gray-400",
   },
   {
     name: "LinkedIn",
     icon: Linkedin,
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/radoniaina-michael-andriambola-8820b32a6/",
     color: "hover:text-blue-400",
   },
   {
     name: "Facebook",
     icon: Facebook,
-    href: "https://twitter.com",
+    href: "https://www.facebook.com/radoniaina.michael.andriambola/",
     color: "hover:text-sky-400",
   },
 ];

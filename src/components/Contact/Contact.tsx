@@ -130,19 +130,19 @@ export default function Contact() {
   const socialLinks = [
     {
       icon: <FaLinkedin />,
-      href: "#",
+      href: "https://www.linkedin.com/in/radoniaina-michael-andriambola-8820b32a6/",
       label: "LinkedIn",
       color: "hover:bg-blue-600",
     },
     {
       icon: <FaGithub />,
-      href: "#",
+      href: "https://github.com/Radoniaina24",
       label: "GitHub",
       color: "hover:bg-gray-900",
     },
     {
       icon: <FaFacebook />,
-      href: "#",
+      href: "https://www.facebook.com/radoniaina.michael.andriambola/",
       label: "Facebook",
       color: "hover:bg-blue-700",
     },
@@ -542,6 +542,7 @@ export default function Contact() {
                     <a
                       key={index}
                       href={social.href}
+                      target="_blanck"
                       aria-label={social.label}
                       className={`group w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300
                         hover:scale-110 hover:-translate-y-1 hover:shadow-lg cursor-pointer ${
