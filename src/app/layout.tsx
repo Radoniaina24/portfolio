@@ -13,7 +13,7 @@ const inter = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "RM-Portfolio",
 };
 
 export default function RootLayout({

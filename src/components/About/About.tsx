@@ -202,7 +202,7 @@ export default function About() {
               {/* Image principale */}
               <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                 <img
-                  src="https://readdy.ai/api/search-image?query=Professional%20male%20web%20developer%20portrait%2C%20confident%20pose%2C%20modern%20office%20environment%2C%20working%20with%20multiple%20screens%20showing%20code%2C%20professional%20attire%2C%20soft%20lighting%2C%20high%20quality%20professional%20photo&width=600&height=700&seq=8&orientation=portrait"
+                  src="https://res.cloudinary.com/dx3xhdaym/image/upload/v1770636473/photo3_ejjgpg.png"
                   alt="ANDRIAMBOLA Radoniaina Michael - Développeur Full Stack"
                   className="w-full h-auto object-cover object-top transform
                              group-hover:scale-105 transition-transform duration-700"
